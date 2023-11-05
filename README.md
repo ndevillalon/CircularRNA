@@ -2,7 +2,7 @@
 
 - Fastq original
 
-Mapear a humano (5) y eliminar alineamientos perfectos (4)
+Mapear a humano (6) y eliminar alineamientos perfectos (3 y 4)
 
 - FASTQ Nicolas
 
@@ -43,7 +43,7 @@ HERRAMIENTAS:
 
 1. cirseq_adapt: Aisla la secuencia repetitiva en aquellas secuencias que lo sean
 
-2. Filtrar secuencias iguales
+2. Filtrar secuencias duplicadas
 
 3. Dividir SAM según softclip: Separa un SAM en 3 SAM diferentes, uno con las secuencias sin sofclip, otro con aquellas con un softclip y otro con softclip en ambas
 
