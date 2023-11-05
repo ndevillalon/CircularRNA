@@ -19,7 +19,7 @@ BWT para detectar duplicados de unidades repetitivas (2):
   Repetimos los dos pasos anteriores pero teniendo en cuenta también el complemento invertido (El fastq tendrá etiqueta "final") 
 
 - FASTQ2
-- 
+
 Alineamos contra el mykoplasma y mosca y generamos un SAM file (6)
 
 Quitamos del FASTQ2 las secuencias que han mapeado en el mykoplasma y mosca (4) El fastq tendrá etiqueta "final3"
