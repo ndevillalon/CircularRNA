@@ -6,7 +6,7 @@ Mapear a humano (5) y eliminar alineamientos perfectos (4)
 
 - FASTQ Nicolas
 
-Utilizamos el script de Rocio para aislar secuencias repetitivas (!)
+Utilizamos el script de Rocio para aislar secuencias repetitivas (1)
 
 - FASTQ Rocio
 
