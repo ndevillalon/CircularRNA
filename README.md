@@ -1,17 +1,17 @@
 # CircularRNA
 
--Fastq original
+- Fastq original
 
 Mapear a humano (5) y eliminar alineamientos perfectos (4)
 
 - FASTQ Nicolas
---Utilizamos el script de Rocio para aislar secuencias repetitivas (!)
+- Utilizamos el script de Rocio para aislar secuencias repetitivas (!)
 
 - FASTQ Rocio
--- BWT para detectar duplicados de unidades repetitivas (2):
----- Generamos un Excel con cada unidad repetitiva (sequence and id) y numero de veces que aparece 
----- Generamos un FASTQ con las unidades repetitivas unicas (sin hacer permutaciones) El fastq tendrá etiqueta "filtered"
----- Repetimos los dos pasos anteriores pero teniendo en cuenta también el complemento invertido (El fastq tendrá etiqueta "final") 
+--BWT para detectar duplicados de unidades repetitivas (2):
+---Generamos un Excel con cada unidad repetitiva (sequence and id) y numero de veces que aparece 
+--- Generamos un FASTQ con las unidades repetitivas unicas (sin hacer permutaciones) El fastq tendrá etiqueta "filtered"
+--- Repetimos los dos pasos anteriores pero teniendo en cuenta también el complemento invertido (El fastq tendrá etiqueta "final") 
 
 - FASTQ2
 -- Alineamos contra el mykoplasma y mosca y generamos un SAM file (6)
