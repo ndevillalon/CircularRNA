@@ -43,13 +43,13 @@ HERRAMIENTAS:
 
 1. cirseq_adapt: Aisla la secuencia repetitiva en aquellas secuencias que lo sean
 
-2. Filtrar secuencias duplicadas
+2. Filtrar_secuencias_duplicadas
 
-3. Dividir SAM según softclip: Separa un SAM en 3 SAM diferentes, uno con las secuencias sin sofclip, otro con aquellas con un softclip y otro con softclip en ambas
+3. Dividir_SAM_según_softclip: Separa un SAM en 3 SAM diferentes, uno con las secuencias sin sofclip, otro con aquellas con un softclip y otro con softclip en ambas
 
-4. Eliminar secuencias del fastq con sam: Genera con un archivo SAM una lista de secuencias a eliminar de un fastq 
+4. Eliminar_secuencias_del_fastq_con_sam: Genera con un archivo SAM una lista de secuencias a eliminar de un fastq 
 
-5. Shifting de las secuencias: Introduciendo un fastq genera otro con todas las permutaciones de cada secuencia inicial.
+5. Shifting_de_las_secuencias: Introduciendo un fastq genera otro con todas las permutaciones de cada secuencia inicial.
 
 6. BOWTIE: 
 Para mapear utilizaremos un comando bowtie con esta estructura
